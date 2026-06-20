@@ -16,11 +16,11 @@ async function salvarEntrega() {
 
     try {
         // Envia os dados para a API do seu banco de dados
-        let resposta = await fetch('ps_live_VTi6bD5WR6cKcSUAAXl9rBMhFxDZLzJt', {
+        let resposta = await fetch('https://fllnukzilrzastjhnmez.supabase.co', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer VTi6bD5WR6cKcSUAAXl9rBMhFxDZLzJt'
+                'Authorization': 'Bearer sb_publishable_gI7bXlzFmR8JIN3HWB4aOg_7pf-qq6e'
             },
             body: JSON.stringify(novaEntrega)
         });
