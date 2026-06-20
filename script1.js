@@ -7,9 +7,9 @@ async function carregarEntregas() {
 
     try {
         // Busca as entregas direto do banco de dados real
-        let resposta = await fetch('ps_live_VTi6bD5WR6cKcSUAAXl9rBMhFxDZLzJt', {
+        let resposta = await fetch('https://fllnukzilrzastjhnmez.supabase.co', {
             method: 'GET',
-            headers: { 'Authorization': 'Bearer VTi6bD5WR6cKcSUAAXl9rBMhFxDZLzJt' }
+            headers: { 'Authorization': 'Bearer sb_secret_iob4SCVud6oibVbFHNX_VQ_9sfMEGUb' }
         });
         
         let listaEntregas = await resposta.json();
