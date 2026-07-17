@@ -1,0 +1,370 @@
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 08:42:33
+ID PEDIDO: 79
+PEDIDO: Cliente: Dona maria José | Rua: Rua isaac martins 47, Nº 98 | Produto: Mar Doce | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 13:42
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 10:46:42
+ID PEDIDO: 82
+PEDIDO: Cliente: 0 | Rua: Rua isaac martins 89, Nº 0 | Produto: Ilha Bela | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 6,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 15:46
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 11:22:57
+ID PEDIDO: 83
+PEDIDO: Cliente: Gás Noleto | Rua: Rua do Ribeirão, Nº 0 | Produto: Gás Butano | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 5,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 16:22
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 13:09:02
+ID PEDIDO: 85
+PEDIDO: Cliente: Enfrente A praça Manoel beckman | Rua: Rua 15 novembro 238, Nº 0 | Produto: Ilha Bela | Qtd: 4
+ROTA: 
+COMISSÃO: R$ 8,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 18:09
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 13:09:02
+ID PEDIDO: 84
+PEDIDO: Cliente: Senhora | Rua: Rua do Ribeirão 212, Nº 0 | Produto: Gás Butano | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 5,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 13:09
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 13:59:48
+ID PEDIDO: 89
+PEDIDO: Cliente: Lucas | Rua: Rua da Cruz 223, Nº 11990203178 | Produto: Mar Doce | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 18:59
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 14:08:18
+ID PEDIDO: 88
+PEDIDO: Cliente: Arlene Vieira  | Rua: Rua montanha russa, 22, Nº 98996125715 | Produto: Gás Butano | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 10,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 14:08
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 03/07/2026 16:13:48
+ID PEDIDO: 90
+PEDIDO: Cliente: Mercearia para Nayara | Rua: Rua do sao joao, Nº 0 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 4,00
+HORÁRIO DO LANÇAMENTO: 03/07/2026 21:13
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 04/07/2026 10:20:50
+ID PEDIDO: 92
+PEDIDO: Cliente: Bom Sport | Rua: Rua paz , Nº 00000000000 | Produto: Ilha Bela | Qtd: 3
+ROTA: 
+COMISSÃO: R$ 6,00
+HORÁRIO DO LANÇAMENTO: 04/07/2026 15:20
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 04/07/2026 10:39:56
+ID PEDIDO: 93
+PEDIDO: Cliente: Rui tecnologia  | Rua: Rua sete setembro 461, Nº 00000000000 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 04/07/2026 15:39
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 04/07/2026 11:45:39
+ID PEDIDO: 95
+PEDIDO: Cliente: Carla | Rua: Rua do Ribeiro 150, Nº 00000000000 | Produto: Gás Butano | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 5,00
+HORÁRIO DO LANÇAMENTO: 04/07/2026 16:45
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 04/07/2026 11:45:39
+ID PEDIDO: 94
+PEDIDO: Cliente: Carla | Rua: Rua ribeiro 150, Nº 00000000000 | Produto: Ilha Bela | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 4,00
+HORÁRIO DO LANÇAMENTO: 04/07/2026 11:45
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 08:32:45
+ID PEDIDO: 103
+PEDIDO: Cliente: Dona simone | Rua: Rua afogado 394, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 13:32
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 08:52:08
+ID PEDIDO: 102
+PEDIDO: Cliente: 166 | Rua: Rua santo Antônio 166, Nº 00000000000 | Produto: Mar Doce | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 08:52
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 09:01:39
+ID PEDIDO: 101
+PEDIDO: Cliente: Casarao | Rua: Rua do Sol, 472, Nº 98981308939 | Produto: Ilha Bela | Qtd: 3
+ROTA: 
+COMISSÃO: R$ 6,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 09:01
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 09:16:26
+ID PEDIDO: 104
+PEDIDO: Cliente: Mario  | Rua: Rua do alecrim , Nº 985981199 | Produto: Ilha Bela | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 14:16
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 09:20:40
+ID PEDIDO: 106
+PEDIDO: Cliente: Leinilson | Rua: Rua do alecrim, Nº 98 | Produto: Ilha Bela | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 4,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 14:20
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 09:20:40
+ID PEDIDO: 105
+PEDIDO: Cliente: Dona simone mercearia | Rua: Rua afogado 394, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 09:20
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 09:38:26
+ID PEDIDO: 96
+PEDIDO: Cliente: Hostel | Rua: Rua isaak martins, Nº 98 | Produto: Gás Butano | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 5,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 09:38
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 10:50:27
+ID PEDIDO: 107
+PEDIDO: Cliente: Beatai | Rua: Rua do Ribeirão, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 15:50
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 13:41:07
+ID PEDIDO: 108
+PEDIDO: Cliente: Cacem | Rua: Rua sto antonio museu cacem, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 18:41
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 15:06:12
+ID PEDIDO: 109
+PEDIDO: Cliente: Raimundo 3 horas | Rua: Rua sto antonio 60, Nº 98 | Produto: Mar Doce | Qtd: 4
+ROTA: 
+COMISSÃO: R$ 8,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 20:06
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 15:15:52
+ID PEDIDO: 110
+PEDIDO: Cliente: Centro de defenso | Rua: Rua 7 setembro 208, Nº 98 | Produto: Ilha Bela | Qtd: 3
+ROTA: 
+COMISSÃO: R$ 6,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 20:15
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 07/07/2026 16:00:09
+ID PEDIDO: 111
+PEDIDO: Cliente: . | Rua: Rua do machado 43, Nº 98 | Produto: Gás Butano | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 5,00
+HORÁRIO DO LANÇAMENTO: 07/07/2026 21:00
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 08/07/2026 09:39:39
+ID PEDIDO: 112
+PEDIDO: Cliente: Nayara | Rua: Rua sao joao 121, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 4,00
+HORÁRIO DO LANÇAMENTO: 08/07/2026 14:39
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 08/07/2026 18:03:10
+ID PEDIDO: 114
+PEDIDO: Cliente: João  | Rua: Rua da Cruz 160 Casa, Nº 00000000000 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 08/07/2026 23:03
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 09:26:41
+ID PEDIDO: 117
+PEDIDO: Cliente: BM SPORTS | Rua: Rua do paz 219, Nº 98 | Produto: Ilha Bela | Qtd: 3
+ROTA: 
+COMISSÃO: R$ 6,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 14:26
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 10:09:30
+ID PEDIDO: 118
+PEDIDO: Cliente: Hotel Casagrande | Rua: Rua isaak Martins 94, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 15:09
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 10:09:44
+ID PEDIDO: 119
+PEDIDO: Cliente: Mille | Rua: Rua Jansen Mullar 89 centro, Nº 00000000000 | Produto: Liquigás | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 15:09
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 10:51:06
+ID PEDIDO: 120
+PEDIDO: Cliente: Cristina | Rua: Rua do Ribeirão 246, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 15:51
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 11:43:59
+ID PEDIDO: 124
+PEDIDO: Cliente: Ludez | Rua: Rua isaac martins 116, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 16:43
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 12:08:28
+ID PEDIDO: 123
+PEDIDO: Cliente: Pousada italiana | Rua: Rua 7 setembro 366, Nº 98 | Produto: Ilha Bela | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 4,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 12:08
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 14:24:24
+ID PEDIDO: 126
+PEDIDO: Cliente: Darto | Rua: Rua saavedra 31, Nº . | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 19:24
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 14:24:24
+ID PEDIDO: 125
+PEDIDO: Cliente: Luana | Rua: Rua da cruz 150, Nº 98 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 14:24
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 15:23:22
+ID PEDIDO: 127
+PEDIDO: Cliente: Vera | Rua: Rua saavedra 51, Nº . | Produto: Ilha Bela | Qtd: 2
+ROTA: 
+COMISSÃO: R$ 4,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 15:23
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 16:44:27
+ID PEDIDO: 129
+PEDIDO: Cliente: Senhora | Rua: Rua do Ribeirão 212, Nº . | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 21:44
+==================================================
+
+==================================================
+STATUS: PEDIDO RECEBIDO
+REGISTRADO EM: 09/07/2026 16:44:27
+ID PEDIDO: 128
+PEDIDO: Cliente: Estacionamento  | Rua: Rua do ribeirão , Nº 00000000000 | Produto: Ilha Bela | Qtd: 1
+ROTA: 
+COMISSÃO: R$ 2,00
+HORÁRIO DO LANÇAMENTO: 09/07/2026 16:44
+==================================================
+

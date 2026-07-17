@@ -1,0 +1,21 @@
+{
+  "name": "Mercearia Nova Opção",
+  "short_name": "Nova Opção",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#0099e5",
+  "theme_color": "#0099e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icone.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icone-grande.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

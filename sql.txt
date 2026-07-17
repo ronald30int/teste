@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS entregadores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    usuario VARCHAR(50) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    saldo_comissao DECIMAL(10, 2) DEFAULT 0.00
+);
+
+CREATE TABLE IF NOT EXISTS pedidos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    descricao_pedido VARCHAR(255) NOT NULL,
+    endereco_rota VARCHAR(255) NOT NULL,
+    valor_comissao DECIMAL(10, 2) NOT NULL,
+    status VARCHAR(20) DEFAULT 'Aguardando',
+    entregador_id INT,
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (entregador_id) REFERENCES entregadores(id) ON DELETE SET NULL
+);
+
+
+
+ALTER TABLE pedidos ADD COLUMN data_entrega DATETIME NULL AFTER status;
