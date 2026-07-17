@@ -8,11 +8,12 @@ if (!isset($_SESSION['entregador_id'])) {
 }
 
 // 2. CONEXÃO COM O BANCO DE DADOS
-$host = "localhost";
-$usuario_db = "root"; 
-$senha_db = "";       
-$nome_db = "sistema_entregas";
-
+<?php
+$host = "tokaido.proxy.rlwy.net";
+$user = "root";
+$password = "AcniLuZnLuFmmKDvOGfZJjxzvlNoAuar";
+$database = "railway";
+$port = 42227;
 $conexao = new mysqli($host, $usuario_db, $senha_db, $nome_db);
 
 if ($conexao->connect_error) {
@@ -137,7 +138,7 @@ $saldo_exibir = number_format($total_acumulado, 2, ',', '.');
         <main class="content-area">
             <?php echo $mensagem; ?>
 
-           <?php
+            <?php
             // Listagem dos cartões de entrega ativos
             $sql_pedidos = "SELECT id, descricao_pedido, endereco_rota, valor_comissao, data_lancamento FROM pedidos WHERE entregador_id = $id_logado AND status = 'Em Rota' ORDER BY id DESC";
             $resultado_pedidos = $conexao->query($sql_pedidos);
@@ -152,46 +153,23 @@ $saldo_exibir = number_format($total_acumulado, 2, ',', '.');
                     $data_banco = $pedido['data_lancamento'];
                     $horario_formatado = !empty($data_banco) ? date('d/m/Y H:i', strtotime($data_banco)) : date('d/m/Y H:i');
 
-                    // =================================================================
-                    // CORREÇÃO: EXTRAÇÃO DO ENDEREÇO DA RUA DE DENTRO DA DESCRIÇÃO
-                    // =================================================================
-                    $endereco_para_o_mapa = "";
-                    
-                    // Procura o que está entre "Rua:" e a próxima barra vertical "|"
-                    if (preg_match('/Rua:\s*([^|]+)/i', $pedido['descricao_pedido'], $matches)) {
-                        $endereco_para_o_mapa = trim($matches[1]); // Pega o endereço limpo (Ex: Avenida Beira-Mar, N° 330)
-                    } else {
-                        $endereco_para_o_mapa = $pedido['endereco_rota']; // Caso falhe, usa o campo padrão
-                    }
-
-                    // Gera a URL correta codificada para o Google Maps
-                    $endereco_codificado = urlencode($endereco_para_o_mapa);
-                    $link_maps = "https://google.com{$endereco_codificado}";
-                    // =================================================================
-
                     // SALVA NO TXT COMO "RECEBIDO" ASSIM QUE O PEDIDO APARECE NA TELA
                     registrar_log_pedido($nome_exibir, "PEDIDO RECEBIDO", $id_p, $pedido['descricao_pedido'], $pedido['endereco_rota'], $comissao, $horario_formatado);
 
                     echo "
                     <div class='card-entrega'>
                         <strong>{$desc}</strong>
-                        
-                        <!-- O texto 'Rota' agora é o link clicável direcionado ao endereço extraído -->
-                        <small>
-                            <a href='{$link_maps}' target='_blank' rel='noopener noreferrer' style='color: #007bff; text-decoration: underline; font-weight: bold;'>
-                                Rota: {$rota} 📍 (Clique aqui para abrir o mapa)
-                            </a>
-                        </small>
-                        
+                        <small>Rota: {$rota}</small>
                         <small>Comissão: R$ {$comissao}</small>
                         <span class='horario-recebido'>Recebido em: {$horario_formatado}</span>
+                        
+                       
                     </div>";
                 }
             } else {
                 echo "<p style='text-align:center; color:#666; margin-top:20px;'>Nenhuma entrega em rota para você no momento.</p>";
             }
             ?>
-
         </main>
         
         <a href="logout.php" class="logout-link">Sair do Painel</a>
