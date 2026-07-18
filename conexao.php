@@ -1,9 +1,9 @@
 <?php
 $host = "tokaido.proxy.rlwy.net";
 $user = "root";
-$password = "AcniLuZnLuFmmKDvOGfZJjxzvlNoAuar";
+$password = "kuijjqJlSUMnqseiUNjuITHvYsrOeUlH@tokaido";
 $database = "railway";
-$port = 42227;
+$port = 59152;
 
 // Criando a conexão
 $conexao = new mysqli($host, $user, $password, $database, $port);

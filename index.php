@@ -1,9 +1,9 @@
 <?php
-// 1. CONEXÃO COM O BANCO DE DADOS
-$host = "localhost";
-$usuario_db = "root"; 
-$senha_db = "";       
-$nome_db = "sistema_entregas";
+$host = "tokaido.proxy.rlwy.net";
+$user = "root";
+$password = "kuijjqJlSUMnqseiUNjuITHvYsrOeUlH@tokaido";
+$database = "railway";
+$port = 59152;
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
@@ -174,7 +174,7 @@ $resultado = $conexao->query("SELECT id, descricao_pedido, status, data_hora FRO
 <body>
 
 <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
-<a href="https://wa.me/5598996010129" target="_blank" class="btn-whatsapp">
+<a href="https://wa.me" target="_blank" class="btn-whatsapp">
     ATENDENTE HUMANO
 </a>
 
@@ -187,7 +187,7 @@ $resultado = $conexao->query("SELECT id, descricao_pedido, status, data_hora FRO
     <!-- Container com Ícone, Nome e Botão Instalar Aplicativo -->
     <div class="app-download-container">
         <a href="mercearia.apk" id="meu-link" class="install-btn">
-            <span style="font-size: 14px;">INSTALA APLICATIVO 📲</span>
+            <span style="font-size: 14px;">INSTALAR APLICATIVO 📲</span>
         </a>
     </div>
     
@@ -224,30 +224,18 @@ $resultado = $conexao->query("SELECT id, descricao_pedido, status, data_hora FRO
 
                     <div>
                         <?php 
-                        // Exibe os blocos de informações filtrando e escondendo a rua
+                        // Exibe os blocos de informações separados de forma organizada
                         foreach ($partes as $parte) {
-                            $parte_limpa = trim($parte);
-                            
-                            // Bloqueia e pula a impressão caso a linha contenha os dados da rua
-                            if (stripos($parte_limpa, 'Rua:') === 0) {
-                                continue;
-                            }
-                            
-                            echo htmlspecialchars($parte_limpa) . "<br>";
+                            echo htmlspecialchars(trim($parte)) . "<br>";
                         }
                         ?>
                     </div>
 
                     <div class="status-txt">
-                        Status:
-                      <?php 
-                      // Se o status for 'Em Rota', muda para 'Enviado'. Se não, mantém o status original.
-                      $status_exibicao = ($pedido['status'] == 'Em Rota') ? 'Enviado' : $pedido['status']; 
-                       ?>	
-					   
+                        Status: 
                         <?php if ($pedido['status'] == 'Aguardando'): ?>
                             <span class="status-aguardando">Aguardando</span>
-                        <?php elseif ($pedido['status'] == 'Em entrega' || $pedido['status'] == 'Saiu para entrega' || $pedido['status'] == 'Em rota'): ?>
+                        <?php elseif ($pedido['status'] == 'Em entrega' || $pedido['status'] == 'Saiu para entrega'): ?>
                             <span class="status-entrega">Saiu para entrega</span>
                         <?php else: ?>
                             <span class="status-concluido"><?php echo htmlspecialchars($pedido['status']); ?></span>

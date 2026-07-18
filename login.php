@@ -2,12 +2,11 @@
 session_start();
 
 // 1. CONFIGURAÇÃO DA CONEXÃO COM O BANCO DE DADOS
-<?php
 $host = "tokaido.proxy.rlwy.net";
 $user = "root";
-$password = "AcniLuZnLuFmmKDvOGfZJjxzvlNoAuar";
+$password = "kuijjqJlSUMnqseiUNjuITHvYsrOeUlH@tokaido";
 $database = "railway";
-$port = 42227;
+$port = 59152;
 
 $conexao = new mysqli($host, $usuario_db, $senha_db, $nome_db);
 
